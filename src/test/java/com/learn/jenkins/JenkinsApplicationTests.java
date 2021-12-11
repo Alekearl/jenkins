@@ -12,7 +12,7 @@ class JenkinsApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(JenkinsApplicationTests.class);
 
 	@Test
-	 contextLoads() throws Exception {
+	 void contextLoads() throws Exception {
 		Assertions.assertEquals(true, true);
 		logger.info("Test case executing...");
 		logger.info("Test case executing again this...");
